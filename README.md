@@ -13,11 +13,11 @@
 
 ### Решение:
 * Модель схемы можем представить следующим образом:
-![Image alt](https://github.com/Denisplusplus/SSCC/raw/master/Others/1.png)
+![Image alt](https://github.com/Denisplusplus/something/blob/master/images/schema_model.png)
 * Используем СУБД: PostgreSQL + PgAdmin
-![Image alt](https://github.com/Denisplusplus/SSCC/raw/master/Others/1.png)
+![Image alt](https://github.com/Denisplusplus/something/blob/master/images/postgres_schema.png)
 * Тестовые данные:
-![Image alt](https://github.com/Denisplusplus/SSCC/raw/master/Others/1.png)
+![Image alt](https://github.com/Denisplusplus/something/blob/master/images/test_data.png)
 * Итоговый запрос выглядит следующим образом:
 ```
 SELECT "PurchasesSchema"."Purchases".user_id                  AS USER, 
@@ -37,4 +37,4 @@ GROUP BY date_part('month', "PurchasesSchema"."Purchases".date) ,
 	"PurchasesSchema"."Users".age
 ```
 * Результат:
-![Image alt](https://github.com/Denisplusplus/SSCC/raw/master/Others/1.png)
+![Image alt](https://github.com/Denisplusplus/something/blob/master/images/query_result.png)
