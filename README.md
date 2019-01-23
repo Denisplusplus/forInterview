@@ -38,3 +38,13 @@ GROUP BY date_part('month', "PurchasesSchema"."Purchases".date) ,
 ```
 * Результат:
 ![Image alt](https://github.com/Denisplusplus/something/blob/master/images/query_result.png)
+
+
+
+### Вопрос №2
+
+С сайта google news (https://news.google.com) (язык и регион - English | United States) необходимо прокачать все статьи за последний месяц (на момент прокачки) с ключевым словом Russia.
+
+Затем для скачанных статей необходимо рассчитать топ-50 наиболее частотных слов и представить их в виде word (tag) cloud. Данное задание необходимо выполнить с помощью python. Для представления в виде word cloud можно использовать уже существующие библиотеки. Пример word cloud можно посмотреть по ссылке - https://altoona.psu.edu/sites/altoona/files/styles/photo_gallery_large/http/news.psu.edu/sites/default/files/success-word-cloud.jpg
+
+### Решение:
