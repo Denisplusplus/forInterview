@@ -98,8 +98,8 @@ plt.show()
 
 ### Результат:
 За 23.01.2019
-![Image alt](https://github.com/Denisplusplus/something/blob/master/images/query_result.png)
+![Image alt](https://github.com/Denisplusplus/something/blob/master/images/wordCloud23.png)
 За 22.01.2019
-![Image alt](https://github.com/Denisplusplus/something/blob/master/images/query_result.png)
+![Image alt](https://github.com/Denisplusplus/something/blob/master/images/wordCloud22.png)
 За период с 21.12.2018 по 21.01.2019
-![Image alt](https://github.com/Denisplusplus/something/blob/master/images/query_result.png)
+![Image alt](https://github.com/Denisplusplus/something/blob/master/images/wordCloud21-21.png)
