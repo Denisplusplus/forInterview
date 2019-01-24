@@ -108,3 +108,11 @@ plt.show()
 * За период с 21.12.2018 по 21.01.2019
 
 ![Image alt](https://github.com/Denisplusplus/something/blob/master/images/wordCloud21-21.png)
+
+### Вопрос №3
+
+Оцените количество точек на картинке (Любым способом на ваш выбор) и опишите, как вы это сделали.
+https://lh5.googleusercontent.com/yO12GARP3fqmNOZ00zM9Q_nyBVWWfR_xVu8skrvAmhB1hzSJyq_F593jhQqS48aWJyCZ5jzDAQ=w513
+
+
+### Решение:
