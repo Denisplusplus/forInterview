@@ -18,7 +18,7 @@
 ![Image alt](https://github.com/Denisplusplus/something/blob/master/images/postgres_schema.png)
 * Тестовые данные:
 ![Image alt](https://github.com/Denisplusplus/something/blob/master/images/test_data.png)
-* Итоговый запрос выглядит следующим образом:
+* Итоговый первый запрос выглядит следующим образом:
 ```
 SELECT "PurchasesSchema"."Purchases".user_id                  AS USER, 
        "PurchasesSchema"."Users".age                          AS AGE,
@@ -39,7 +39,18 @@ GROUP BY date_part('month', "PurchasesSchema"."Purchases".date) ,
 * Результат:
 ![Image alt](https://github.com/Denisplusplus/something/blob/master/images/query_result.png)
 
-
+* Для выполнения второго запроса необходимо изменить строку
+```
+WHERE "PurchasesSchema"."Users".age >= 18 AND "PurchasesSchema"."Users".age <= 25
+```
+на 
+```
+WHERE "PurchasesSchema"."Users".age >= 26 AND "PurchasesSchema"."Users".age <= 35
+```
+* Для выполнения третьего запроса необходимо убрать строку
+```
+WHERE "PurchasesSchema"."Users".age >= 18 AND "PurchasesSchema"."Users".age <= 25
+```
 
 ### Вопрос №2
 
